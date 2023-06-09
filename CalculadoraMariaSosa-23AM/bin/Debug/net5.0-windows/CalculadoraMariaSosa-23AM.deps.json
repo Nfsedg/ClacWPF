@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "CalculadoraMariaSosa-23AM/1.0.0": {
+        "runtime": {
+          "CalculadoraMariaSosa-23AM.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CalculadoraMariaSosa-23AM/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

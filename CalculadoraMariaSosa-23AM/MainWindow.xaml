@@ -9,26 +9,26 @@
         Background="#FF3E3E3E"
         >
     <Grid Margin="-1,0,1,-6">
-        <Button Padding="10,10,10,10" Content="7" Margin="6,144,222,227" BorderThickness="0,0,0,0" Background="#FF3E3E3E" Cursor="Hand" Foreground="#fff" FontSize="20" />
-        <TextBox BorderBrush="Transparent" Padding="0,0,8,0" x:Name="textbox" HorizontalAlignment="Center" Height="50" Margin="0,17,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="271" Panel.ZIndex="-4" FontSize="26" TextAlignment="Right" Background="#00000000" TextChanged="TextBox_TextChanged" Foreground="#ffffff"/>
-        <Button Content="8" Margin="78,144,154,227" BorderThickness="0,0,0,0" Background="#FF3E3E3E" Cursor="Hand" Foreground="#fff" FontSize="20" Click="Button_Click_1" />
-        <Button Content="9" Margin="146,144,87,227" BorderThickness="0,0,0,0" Background="#FF3E3E3E" Cursor="Hand" Foreground="#fff" FontSize="20" />
-        <Button Content="/" Margin="213,144,14,227" BorderThickness="0,0,0,0" Background="#FF3E3E3E" Cursor="Hand" Foreground="#fff" FontSize="20" />
-        <Button Content="4" Margin="6,207,227,153" BorderThickness="0,0,0,0" Background="#FF3E3E3E" Cursor="Hand" Foreground="#fff" FontSize="20" />
-        <Button Content="5" Margin="73,207,156,153" BorderThickness="0,0,0,0" Background="#FF3E3E3E" Cursor="Hand" Foreground="#fff" FontSize="20" />
-        <Button Content="6" Margin="144,207,82,153" BorderThickness="0,0,0,0" Background="#FF3E3E3E" Cursor="Hand" Foreground="#fff" FontSize="20" />
-        <Button Content="x" Margin="218,207,10,153" BorderThickness="0,0,0,0" Background="#FF3E3E3E" Cursor="Hand" Foreground="#fff" FontSize="20" />
-        <Button Content="1" Margin="6,280,227,85" BorderThickness="0,0,0,0" Background="#FF3E3E3E" Cursor="Hand" Foreground="#fff" FontSize="20" />
-        <Button Content="2" Margin="73,280,156,85" BorderThickness="0,0,0,0" Background="#FF3E3E3E" Cursor="Hand" Foreground="#fff" FontSize="20" />
-        <Button Content="3" Margin="144,280,82,85" BorderThickness="0,0,0,0" Background="#FF3E3E3E" Cursor="Hand" Foreground="#fff" FontSize="20" />
-        <Button Content="-" Margin="218,280,10,85" BorderThickness="0,0,0,0" Background="#FF3E3E3E" Cursor="Hand" Foreground="#fff" FontSize="20" />
-        <Button Content="." Margin="6,349,227,13" BorderThickness="0,0,0,0" Background="#FF3E3E3E" Cursor="Hand" Foreground="#fff" FontSize="20" />
-        <Button Content="0" Margin="73,349,156,13" BorderThickness="0,0,0,0" Background="#FF3E3E3E" Cursor="Hand" Foreground="#fff" FontSize="20" />
-        <Button Content="+/-" Margin="151,349,82,13" BorderThickness="0,0,0,0" Background="#FF3E3E3E" Cursor="Hand" Foreground="#fff" FontSize="20" />
-        <Button Content="=" Margin="228,363,10,13" BorderThickness="0,0,0,0" Background="#FF3E3E3E" Cursor="Hand" Foreground="#fff" FontSize="20" />
-        <Button Content="%" Margin="6,76,222,290" BorderThickness="0,0,0,0" Background="#FF3E3E3E" Cursor="Hand" Foreground="#fff" FontSize="20" />
-        <Button Content="CE" Margin="78,76,156,290" BorderThickness="0,0,0,0" Background="#FF3E3E3E" Cursor="Hand" Foreground="#fff" FontSize="20" Click="Button_Click_1" />
-        <Button Content="C" Margin="144,76,82,290" BorderThickness="0,0,0,0" Background="#FF3E3E3E" Cursor="Hand" Foreground="#fff" FontSize="20" />
-        <Button Content="&lt;-" Margin="218,76,10,290" BorderThickness="0,0,0,0" Background="#FF3E3E3E" Cursor="Hand" Foreground="#fff" FontSize="20" />
+        <Button Padding="10,10,10,10" Content="7" Margin="6,144,222,227" BorderThickness="0,0,0,0" Background="#FF3E3E3E" Cursor="Hand" Foreground="#fff" FontSize="20" Click="ButtonClick" />
+        <TextBox BorderBrush="Transparent" Padding="0,0,8,0" x:Name="Screen" HorizontalAlignment="Center" Height="50" Margin="0,17,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="271" Panel.ZIndex="-4" FontSize="26" TextAlignment="Right" Background="#00000000" Foreground="#ffffff"/>
+        <Button Content="8" Margin="78,144,154,227" BorderThickness="0,0,0,0" Background="#FF3E3E3E" Cursor="Hand" Foreground="#fff" FontSize="20" Click="ButtonClick" />
+        <Button Content="9" Margin="146,144,87,227" BorderThickness="0,0,0,0" Background="#FF3E3E3E" Cursor="Hand" Foreground="#fff" FontSize="20" Click="ButtonClick"/>
+        <Button Content="/" Margin="213,144,14,227" BorderThickness="0,0,0,0" Background="#FF3E3E3E" Cursor="Hand" Foreground="#fff" FontSize="20" Click="ButtonClick"/>
+        <Button Content="4" Margin="6,207,227,153" BorderThickness="0,0,0,0" Background="#FF3E3E3E" Cursor="Hand" Foreground="#fff" FontSize="20" Click="ButtonClick"/>
+        <Button Content="5" Margin="73,207,156,153" BorderThickness="0,0,0,0" Background="#FF3E3E3E" Cursor="Hand" Foreground="#fff" FontSize="20" Click="ButtonClick"/>
+        <Button Content="6" Margin="144,207,82,153" BorderThickness="0,0,0,0" Background="#FF3E3E3E" Cursor="Hand" Foreground="#fff" FontSize="20" Click="ButtonClick"/>
+        <Button Content="x" Margin="218,207,10,153" BorderThickness="0,0,0,0" Background="#FF3E3E3E" Cursor="Hand" Foreground="#fff" FontSize="20" Click="ButtonClick"/>
+        <Button Content="1" Margin="6,280,227,85" BorderThickness="0,0,0,0" Background="#FF3E3E3E" Cursor="Hand" Foreground="#fff" FontSize="20" Click="ButtonClick"/>
+        <Button Content="2" Margin="73,280,156,85" BorderThickness="0,0,0,0" Background="#FF3E3E3E" Cursor="Hand" Foreground="#fff" FontSize="20" Click="ButtonClick"/>
+        <Button Content="3" Margin="144,280,82,85" BorderThickness="0,0,0,0" Background="#FF3E3E3E" Cursor="Hand" Foreground="#fff" FontSize="20" Click="ButtonClick"/>
+        <Button Content="-" Margin="218,280,10,85" BorderThickness="0,0,0,0" Background="#FF3E3E3E" Cursor="Hand" Foreground="#fff" FontSize="20" Click="ButtonClick"/>
+        <Button Content="." Margin="6,349,227,13" BorderThickness="0,0,0,0" Background="#FF3E3E3E" Cursor="Hand" Foreground="#fff" FontSize="20" Click="ButtonClick"/>
+        <Button Content="0" Margin="73,349,156,13" BorderThickness="0,0,0,0" Background="#FF3E3E3E" Cursor="Hand" Foreground="#fff" FontSize="20" Click="ButtonClick"/>
+        <Button Content="+" Margin="151,349,82,13" BorderThickness="0,0,0,0" Background="#FF3E3E3E" Cursor="Hand" Foreground="#fff" FontSize="20" Click="ButtonClick"/>
+        <Button Content="=" Margin="228,363,10,13" BorderThickness="0,0,0,0" Background="#FF3E3E3E" Cursor="Hand" Foreground="#fff" FontSize="20" Click="ButtonClick"/>
+        <Button Content="%" Margin="6,76,222,290" BorderThickness="0,0,0,0" Background="#FF3E3E3E" Cursor="Hand" Foreground="#fff" FontSize="20" Click="ButtonClick"/>
+        <Button Content="CE" Margin="78,76,156,290" BorderThickness="0,0,0,0" Background="#FF3E3E3E" Cursor="Hand" Foreground="#fff" FontSize="20" Click="ButtonClick" />
+        <Button Content="C" Margin="144,76,82,290" BorderThickness="0,0,0,0" Background="#FF3E3E3E" Cursor="Hand" Foreground="#fff" FontSize="20" Click="ButtonClick"/>
+        <Button Content="&lt;-" Margin="218,76,10,290" BorderThickness="0,0,0,0" Background="#FF3E3E3E" Cursor="Hand" Foreground="#fff" FontSize="20" Click="ButtonClick"/>
     </Grid>
 </Window>
